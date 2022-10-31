@@ -1,0 +1,5 @@
+usrInput = input("Give me the code to reproduce! :)\n")
+inputLine = usrInput.split("\n")
+for each in inputLine:
+	for eachChar in each:
+		print(eachChar, end='')
